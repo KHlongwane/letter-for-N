@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0"> 
+        <title>To Njabulo Gasa &#10084;&#65039;</title>
+        <style>
+         body
+          { background: linear-gradient(135deg, #d0eafc, #f0f8ff); font-family: 'Segoe UI', sans-serif; color: #333; display: flex; justify-content: center; align-items: center; height: 100vh;}
+         .letter {background: #ffffffb3; padding: 20px; border-radius: 15px; max-width: 400px; text-align: center; transition: transform 0.3s ease;}
+        .letter :hover {transform: scale (1.02); }
+        h2 {color: #2e8b57;}
+        button {background-color: #2e8b57; color: white; border: none; padding: 10px 20px; border-radius: 8px; font-size: 16px; cursor: pointer; margin-top: 15px; }
+        button:hover {background-color: #246b45;}
+        </style>
+    </head>
+    <body>
+        <div class="letter">
+            <h2> NJABULO GASA</h2>
+            <p id="message"> Click the button below when you are ready &#10084;&#65039;</p>
+            <button onclick="revealLetter()">Open Letter</button>
+        </div>
+        <script>
+        function revealLetter (){
+            document.getElementById ("message").innerHTML = `
+            I care about you deeply. I know this because when something good happens, you're the one i want to tell first. When something feels heavy, you're the one i wish was beside me. You hold space for me. You listen. You remember the things i say and i notice it. Even if i don't always say it, you show up in ways that tell me i matter to you. And it means a whole lot.
+            <br><br> 
+            Sometimes i pause and think about how you make things feel calm even when days are loud. Thank you for being gentle, for laughing softly. Your kindness doesn't go unnoticed, and your presence is a soft reminder to breathe. Im grateful our paths crossed when they did, and Im grateful for you.
+            <br><br>
+            Uyathandwa kwa Hlongwane Baba &#10084;&#65039; 
+            `; 
+        }
+        </script>
+    </body>
+</html>
